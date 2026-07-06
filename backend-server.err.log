@@ -1,0 +1,1224 @@
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+AggregateError: 
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ECONNREFUSED',
+  fatal: true,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 3306
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:3306
+        at createConnectionError (node:net:1675:14)
+        at afterConnectMultiple (node:net:1705:16) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 3306
+    }
+  ]
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Unknown database 'zomato_clone'
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  sqlMessage: "Unknown database 'zomato_clone'",
+  sql: undefined
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT id, name, state, latitude, longitude FROM cities  ORDER BY state ASC, name ASC'
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT DISTINCT state FROM cities ORDER BY state ASC'
+}
+Error: Table 'zomato_clone.cuisines' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cuisines' doesn't exist",
+  sql: 'SELECT id, name FROM cuisines ORDER BY name ASC'
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_dine_in = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_dine_in = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_dine_in = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_dine_in = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.is_promoted DESC, r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_pickup = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.is_promoted DESC, r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_delivery = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.is_promoted DESC, r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.restaurants' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/restaurants.js:102:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.restaurants' doesn't exist",
+  sql: '\n' +
+    '      SELECT\n' +
+    '        r.id, r.name, r.description, r.image_url, r.address,\n' +
+    '        r.latitude, r.longitude, r.price_level, r.cost_for_two,\n' +
+    '        r.rating, r.delivery_time_min, r.supports_delivery,\n' +
+    '        r.supports_pickup, r.supports_dine_in, r.is_promoted,\n' +
+    '        c.state AS state_name,\n' +
+    '        c.name AS city_name,\n' +
+    "        GROUP_CONCAT(DISTINCT cu.name ORDER BY cu.name SEPARATOR ', ') AS cuisines\n" +
+    '      FROM restaurants r\n' +
+    '      JOIN cities c ON c.id = r.city_id\n' +
+    '      \n' +
+    '      LEFT JOIN restaurant_cuisines rc ON rc.restaurant_id = r.id\n' +
+    '      LEFT JOIN cuisines cu ON cu.id = rc.cuisine_id\n' +
+    '      WHERE r.supports_dine_in = 1\n' +
+    '      GROUP BY r.id\n' +
+    '      ORDER BY r.is_promoted DESC, r.rating DESC\n' +
+    '    '
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT id, name, state, latitude, longitude FROM cities  ORDER BY state ASC, name ASC'
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT DISTINCT state FROM cities ORDER BY state ASC'
+}
+Error: Table 'zomato_clone.cuisines' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cuisines' doesn't exist",
+  sql: 'SELECT id, name FROM cuisines ORDER BY name ASC'
+}
+Error: Table 'zomato_clone.cuisines' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cuisines' doesn't exist",
+  sql: 'SELECT id, name FROM cuisines ORDER BY name ASC'
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT id, name, state, latitude, longitude FROM cities  ORDER BY state ASC, name ASC'
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT DISTINCT state FROM cities ORDER BY state ASC'
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:28:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT DISTINCT state FROM cities ORDER BY state ASC'
+}
+Error: Table 'zomato_clone.cities' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cities.js:16:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cities' doesn't exist",
+  sql: 'SELECT id, name, state, latitude, longitude FROM cities  ORDER BY state ASC, name ASC'
+}
+Error: Table 'zomato_clone.cuisines' doesn't exist
+    at query (file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/db/pool.js:21:29)
+    at file:///C:/Users/dk897/Downloads/Clone%20app/Clone%20app/backend/src/routes/cuisines.js:9:24
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dk897\Downloads\Clone app\Clone app\backend\node_modules\express\lib\router\index.js:175:3) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'zomato_clone.cuisines' doesn't exist",
+  sql: 'SELECT id, name FROM cuisines ORDER BY name ASC'
+}

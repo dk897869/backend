@@ -1,0 +1,56 @@
+
+> zomato-clone-backend@1.0.0 start
+> node src/server.js
+
+Zomato clone API running on http://localhost:4000
+[0mGET /api/cities [31m500[0m 61.512 ms - 33[0m
+[0mGET /api/cities/states [31m500[0m 113.251 ms - 33[0m
+[0mGET /api/cuisines [31m500[0m 65.625 ms - 33[0m
+[0mGET /api/cities [31m500[0m 21.483 ms - 33[0m
+[0mGET /api/cities/states [31m500[0m 29.971 ms - 33[0m
+[0mGET /api/cuisines [31m500[0m 24.784 ms - 33[0m
+[0mGET /api/cities/states [31m500[0m 29.519 ms - 33[0m
+[0mGET /api/cities [31m500[0m 25.545 ms - 33[0m
+[0mGET /api/cuisines [31m500[0m 22.734 ms - 33[0m
+[0mGET /api/cities [31m500[0m 58.259 ms - 33[0m
+[0mGET /api/cities/states [31m500[0m 42.893 ms - 33[0m
+[0mGET /api/cuisines [31m500[0m 45.059 ms - 33[0m
+[0mGET /api/restaurants?serviceMode=pickup [31m500[0m 9.389 ms - 33[0m
+[0mGET /api/restaurants?serviceMode=dine_in [31m500[0m 47.498 ms - 33[0m
+[0mGET /api/cities/states [31m500[0m 439.274 ms - 43[0m
+[0mGET /api/cities [31m500[0m 435.374 ms - 43[0m
+[0mGET /api/cuisines [31m500[0m 429.002 ms - 43[0m
+[0mGET /api/cities [31m500[0m 143.534 ms - 43[0m
+[0mGET /api/cuisines [31m500[0m 104.672 ms - 43[0m
+[0mGET /api/cities/states [31m500[0m 205.810 ms - 43[0m
+[0mGET /api/cities [31m500[0m 126.336 ms - 43[0m
+[0mGET /api/cuisines [31m500[0m 98.264 ms - 43[0m
+[0mGET /api/restaurants?cityId=1 [31m500[0m 15.556 ms - 43[0m
+[0mGET /api/cities [31m500[0m 120.139 ms - 43[0m
+[0mGET /api/cities/states [31m500[0m 160.370 ms - 43[0m
+[0mGET /api/cuisines [31m500[0m 127.930 ms - 43[0m
+[0mGET /api/restaurants?serviceMode=delivery [31m500[0m 6.082 ms - 43[0m
+[0mGET /api/restaurants?serviceMode=pickup [31m500[0m 14.257 ms - 43[0m
+[0mGET /api/restaurants?serviceMode=dine_in [31m500[0m 62.859 ms - 43[0m
+[0mGET /api/cities [31m500[0m 20.655 ms - 43[0m
+[0mGET /api/cities/states [31m500[0m 27.602 ms - 43[0m
+[0mGET /api/cuisines [31m500[0m 24.002 ms - 43[0m
+[0mGET /api/cities [31m500[0m 75.948 ms - 53[0m
+[0mGET /api/cities/states [31m500[0m 105.061 ms - 53[0m
+[0mGET /api/cuisines [31m500[0m 96.751 ms - 55[0m
+[0mGET /api/restaurants?serviceMode=dine_in&sort=rating_desc [31m500[0m 6.803 ms - 58[0m
+[0mGET /api/restaurants?serviceMode=dine_in&sort=rating_desc [31m500[0m 2.512 ms - 58[0m
+[0mGET /api/restaurants?serviceMode=dine_in&sort=rating_desc [31m500[0m 2.419 ms - 58[0m
+[0mGET /api/restaurants?serviceMode=dine_in [31m500[0m 3.325 ms - 58[0m
+[0mGET /api/restaurants?serviceMode=pickup [31m500[0m 7.137 ms - 58[0m
+[0mGET /api/restaurants?serviceMode=delivery [31m500[0m 3.473 ms - 58[0m
+[0mGET /api/restaurants?serviceMode=dine_in [31m500[0m 2.419 ms - 58[0m
+[0mGET /api/cities [31m500[0m 87.361 ms - 53[0m
+[0mGET /api/cities/states [31m500[0m 136.766 ms - 53[0m
+[0mGET /api/cuisines [31m500[0m 90.696 ms - 55[0m
+[0mGET /api/cuisines [31m500[0m 83.656 ms - 55[0m
+[0mGET /api/cities [31m500[0m 97.399 ms - 53[0m
+[0mGET /api/cities/states [31m500[0m 139.323 ms - 53[0m
+[0mGET /api/cities/states [31m500[0m 10.467 ms - 53[0m
+[0mGET /api/cities [31m500[0m 13.168 ms - 53[0m
+[0mGET /api/cuisines [31m500[0m 15.773 ms - 55[0m
