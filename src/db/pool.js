@@ -1,33 +1,47 @@
-import mysql from "mysql2/promise";
-import dotenv from "dotenv";
+import pg from 'pg';
+import dotenv from 'dotenv';
+
+const { Pool } = pg;
 
 dotenv.config();
 
-export const pool = mysql.createPool({
-  host: process.env.DB_HOST || "localhost",
-  port: Number(process.env.DB_PORT || 3306),
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASSWORD || "",
-  database: process.env.DB_NAME || "zomato_clone",
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0,
+// Use environment variables - NO HARDCODED PASSWORDS!
+const poolConfig = {
+  host: process.env.DB_HOST,
+  port: parseInt(process.env.DB_PORT || '5432'),
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
+  ssl: {
+    rejectUnauthorized: false,
+  },
+  max: 20,
+  idleTimeoutMillis: 30000,
+  connectionTimeoutMillis: 10000,
+};
+
+console.log('📊 Connecting to PostgreSQL...');
+console.log(`🔗 Host: ${poolConfig.host}`);
+console.log(`👤 User: ${poolConfig.user}`);
+console.log(`📁 Database: ${poolConfig.database}`);
+
+export const pool = new Pool(poolConfig);
+
+pool.connect((err, client, release) => {
+  if (err) {
+    console.error('❌ Database connection failed:', err.message);
+    return;
+  }
+  console.log('✅ Database connected successfully!');
+  release();
 });
 
-export const query = async (sql, params = []) => {
+export const query = async (text, params) => {
   try {
-    const [rows] = await pool.execute(sql, params);
-    return rows;
+    const result = await pool.query(text, params);
+    return result.rows;
   } catch (error) {
-    // Log but don't throw for table not found errors
-    if (error.code === "ER_NO_SUCH_TABLE") {
-      console.warn("⚠️ Table not found:", error.sqlMessage);
-      return [];
-    }
-    if (error.code === "ER_BAD_FIELD_ERROR") {
-      console.warn("⚠️ Column not found:", error.sqlMessage);
-      return [];
-    }
+    console.error('❌ Database query error:', error);
     throw error;
   }
 };
